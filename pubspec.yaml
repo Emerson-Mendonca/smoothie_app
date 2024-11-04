@@ -1,7 +1,7 @@
 name: smoothie_app
 description: Teste para Dafiti.
 
-version: 1.0.0+1
+version: 1.0.1+2
 
 environment:
   sdk: '>=2.19.6 <3.0.0'
