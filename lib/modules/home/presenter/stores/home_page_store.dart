@@ -80,7 +80,7 @@ abstract class _HomePageStore with Store {
     String ingrediente = ingredientesResultado[index].replaceAll(RegExp(r'[^\w\s]'), '').trim();
 
     if (!ingrediente.contains('No foi possvel encontrado no cardpio')) {
-      pedidoController.text = '${pedidoController.text} -${ingrediente}, ';
+      pedidoController.text = '${pedidoController.text}-${ingrediente}, ';
     }
 
     ingredientesResultado.removeAt(index);
