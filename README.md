@@ -33,7 +33,7 @@ Para executar o aplicativo, siga os passos abaixo:
     ```scss
     smoothie_app/
     ├── apk/
-    │   ├── app-release.apk.dart
+    │   ├── app-release.apk
     ```
 
 ## Testes
